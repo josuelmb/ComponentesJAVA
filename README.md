@@ -208,7 +208,32 @@ Ruta base:
     "dniTecnico": "98678541"
 }
 ```
+Respuesta:
 
+```json
+{
+    "idSolicitud": 1,
+    "descripcion": "mi iphone no reconoce el faceid",
+    "estado": "Activo",
+    "fechaRegistro": "2026-03-11T06:35:00.250Z",
+    "cliente": {
+        "idCliente": 1,
+        "dni": "12345678",
+        "nombre": "Maria",
+        "ApellidoPaterno": "Manzanedo",
+        "ApellidoMaterno": "Puelles",
+        "Correo": "Mpuelles@gmail.com",
+        "fechaRegistro": "2026-03-11T06:34:35.334Z"
+    },
+    "tecnico": {
+        "idTecnico": 1,
+        "dni": "98678541",
+        "nombre": "Anthony",
+        "apellido": "Casanova",
+        "especialidad": "Android"
+    }
+}
+```
 ---
 
 # Comportamiento de la API
