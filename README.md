@@ -139,8 +139,22 @@ Respuesta:
         "fechaRegistro": "2026-03-11T05:26:23.359Z"
     }
 ```
+### Obtener todos los clientes
 
----
+GET /v1/clientes
+
+Respuesta:
+
+```json
+  {
+  {
+    "idCliente": 1,
+    "dni": "12345678",
+    "nombre": "Maria",
+    "ApellidoPaterno": "Manzanedo",
+    "ApellidoMaterno": "Puelles"
+  }
+```
 
 # Técnicos
 
@@ -273,6 +287,9 @@ Para probar la API:
 3. Ejecutar cada endpoint.
 
 ---
+Repositorio del proyecto:
+
+https://github.com/josuelmb/ComponentesJAVA
 
 # Autor
 
