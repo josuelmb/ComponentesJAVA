@@ -168,6 +168,17 @@ Ruta base:
     "especialidad": "Android"
 }
 ```
+Respuesta:
+
+```json
+{
+  "id": 1,
+  "dni": "98678541",
+  "nombre": "Anthony",
+  "apellido": "Casanova",
+  "especialidad": "Android"
+}
+```
 
 ---
 
