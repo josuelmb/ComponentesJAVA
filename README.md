@@ -140,9 +140,9 @@ Respuesta:
     }
 ```
 ### Obtener todos los clientes
-
+```
 GET /v1/clientes
-
+```
 Respuesta:
 
 ```json
