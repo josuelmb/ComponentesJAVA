@@ -240,7 +240,10 @@ Para probar la API:
 
 # Autor
 
-Nombre: Josue Manzanedo, Anthony Puelles, Diego Casanova
+Josue Manzanedo
+Anthony Puelles
+Diego Casanova
+
 Proyecto académico
 Año: 2026
 
