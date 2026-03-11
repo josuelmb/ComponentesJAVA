@@ -118,11 +118,12 @@ POST
 Body:
 
 ```json
-  {"dni" : "12345678",
-  "nombre": "Maria",
-  "ApellidoPaterno": "Manzanedo",
-  "ApellidoMaterno": "Puelles",
-  "Correo": "Mpuelles@gmail.com"
+  {
+    "dni" : "12345678",
+    "nombre": "Maria",
+    "ApellidoPaterno": "Manzanedo",
+    "ApellidoMaterno": "Puelles",
+    "Correo": "Mpuelles@gmail.com"
 }
 ```
 
@@ -146,7 +147,6 @@ GET /v1/clientes
 Respuesta:
 
 ```json
-  {
   {
     "idCliente": 1,
     "dni": "12345678",
@@ -176,10 +176,10 @@ Ruta base:
 
 ```json
 {
-    "dni" : "98678541",
-    "nombre": "Anthony",
-    "apellido": "Casanova",
-    "especialidad": "Android"
+  "dni" : "98678541",
+  "nombre": "Anthony",
+  "apellido": "Casanova",
+  "especialidad": "Android"
 }
 ```
 Respuesta:
